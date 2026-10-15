@@ -1,0 +1,6 @@
+{
+  "name": "TransitIQ - Campus Transport Optimization",
+  "description": "Intelligent campus transit optimization platform with constraint-aware routing, real-time simulated fleet tracking, ETA estimation, demand analytics, and disruption recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
