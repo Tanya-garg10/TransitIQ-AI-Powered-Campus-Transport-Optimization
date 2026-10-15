@@ -14,8 +14,6 @@ A full-stack, constraint-aware campus transit optimization platform with live si
 
 </div>
 
----
-
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -28,8 +26,6 @@ A full-stack, constraint-aware campus transit optimization platform with live si
 - [Contributing](#-contributing)
 - [License](#-license)
 
----
-
 ## ✨ Features
 
 ### 🎯 Core Capabilities
@@ -40,23 +36,6 @@ A full-stack, constraint-aware campus transit optimization platform with live si
 - **Performance Analytics** - Comparative analysis between baseline and optimized schedules
 - **Disruption Simulation** - Stress-test scenarios for class rushes, construction delays, and vehicle breakdowns
 - **Fleet Management** - Complete route directory and vehicle fleet tracking
-
-### 🎨 Design System
-
-- **Palette:**
-  - **Midnight Ink:** `#101820` (primary dark surface)
-  - **Warm Ivory:** `#F7F6F0` (editorial contrast text & surfaces)
-  - **Electric Lime:** `#D8FF3E` (accent, active indicator, primary CTA)
-  - **Slate Grey:** `#69737D` (subtle metrics, labels, borders)
-  - **Pure White:** `#FFFFFF` (high-contrast headers & callouts)
-  - **Alert Tones:** Red `#E04838`, Amber `#E58B20` (operational warnings)
-
-- **Typography:**
-  - **Headlines:** `Space Grotesk` (geometric display sans-serif)
-  - **Interface:** `Inter` (legible tabular UI)
-  - **Telemetry:** `JetBrains Mono` (precise tabular figures)
-
----
 
 ## 🏗️ Architecture
 
@@ -80,8 +59,6 @@ A full-stack, constraint-aware campus transit optimization platform with live si
 4. **Route Optimizer** - MILP solver with constraint validation
 5. **Performance Lab** - Comparative analytics and stress testing
 6. **Routes & Fleet** - Fleet management and route configuration
-
----
 
 ## 🚦 Hard Constraints
 
@@ -107,8 +84,6 @@ The optimizer enforces 7 non-negotiable hard constraints:
 
 7. **$C_7$ — Route Topology & Connectivity**
    - Stop sequences must follow connected campus graph segments
-
----
 
 ## 📦 Installation
 
@@ -154,8 +129,6 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 
 API documentation available at **`http://localhost:8000/docs`**
 
----
-
 ## 🚀 Usage
 
 ### Running the Application
@@ -187,8 +160,6 @@ The Live Operations page includes:
 - ⏭️ Advance time (+5 minutes)
 - 🔄 Reset simulation
 
----
-
 ## 🧪 Testing
 
 ### Backend Tests
@@ -211,8 +182,6 @@ python backend/tests/run_tests.py
 - ✅ ETA MAE computation
 
 **Current Status:** 6/6 tests passing (0.008s execution time)
-
----
 
 ## 📁 Project Structure
 
@@ -247,8 +216,6 @@ transitiq/
 └── README.md               # This file
 ```
 
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -266,27 +233,19 @@ Contributions are welcome! Please follow these steps:
 - Update documentation as needed
 - Ensure all tests pass before submitting
 
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
 ## 👥 Authors
 
-- **Tanya Garg** - Initial work
-
----
+- **Tanya Garg**
 
 ## 🙏 Acknowledgments
 
 - Built with React, TypeScript, and FastAPI
 - Inspired by real-world campus transportation challenges
 - Design system inspired by modern mobility platforms
-
----
 
 ## 📞 Support
 
